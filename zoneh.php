@@ -2,6 +2,7 @@
 require 'simple_html_dom.php';
 
 if(!isset($argv[1]) || !isset($argv[2]) || !isset($argv[3])) die('Syntax: ./script <COOKIE_PHPSESSID> <COOKIE_ZONEH> <DOMAIN> <PAGE_NUMBER>');
+//test change
 $COOKIE_PHPSESSID = $argv[1];
 $COOKIE_ZONEH = $argv[2];
 $DOMAIN_SEARCH = $argv[3];
